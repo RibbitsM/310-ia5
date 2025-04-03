@@ -1,6 +1,6 @@
 from collections import Counter
 from string import punctuation
-
+import matplotlib.pyplot as plt
 
 def load_text(input_file):
     """Load text from a text file and return as a string."""
